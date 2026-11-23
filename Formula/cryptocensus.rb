@@ -1,26 +1,26 @@
 class Cryptocensus < Formula
   desc "SSH and TLS crypto audit with post-quantum readiness scoring"
-  homepage "https://github.com/MaqsatKendjebekov/cryptocensus"
+  homepage "https://github.com/cryptocensus/cryptocensus"
 
   on_macos do
     on_arm do
-      url "https://github.com/MaqsatKendjebekov/cryptocensus/releases/download/v1.1.0/cryptocensus-aarch64-apple-darwin.tar.gz"
-      sha256 "a4135dc2b6227e668deb13fccfc995cecf449acc7ca39f406dfeaa281f0aaab0"
+      url "https://github.com/cryptocensus/cryptocensus/releases/download/v1.1.1/cryptocensus-aarch64-apple-darwin.tar.gz"
+      sha256 "fa27818ae357d14b52582bb63cc277d48270a6e59494c3fb2bf6967d13fd7d7f"
     end
     on_intel do
-      url "https://github.com/MaqsatKendjebekov/cryptocensus/releases/download/v1.1.0/cryptocensus-x86_64-apple-darwin.tar.gz"
-      sha256 "8233ad1251cbd8b9d52c39a326248e5efdb34d93884c86d3d347e44e6086be3d"
+      url "https://github.com/cryptocensus/cryptocensus/releases/download/v1.1.1/cryptocensus-x86_64-apple-darwin.tar.gz"
+      sha256 "56cfdbc04483fdc7c799f7ae62d42fbf9ff44124c30e85666af5cd6608923a22"
     end
   end
 
   on_linux do
     on_arm do
-      url "https://github.com/MaqsatKendjebekov/cryptocensus/releases/download/v1.1.0/cryptocensus-aarch64-unknown-linux-musl.tar.gz"
-      sha256 "4563b58e251fd96bd1bb3e1d28fe6eafb89aec3b9be12a8a96782360bfcbbb5c"
+      url "https://github.com/cryptocensus/cryptocensus/releases/download/v1.1.1/cryptocensus-aarch64-unknown-linux-musl.tar.gz"
+      sha256 "bb9acd212884f8f971faaf95fd2eabb2ef49f6ec7034ebb5c450c2fce3da1d6a"
     end
     on_intel do
-      url "https://github.com/MaqsatKendjebekov/cryptocensus/releases/download/v1.1.0/cryptocensus-x86_64-unknown-linux-musl.tar.gz"
-      sha256 "9b79f77a5077e69b1f866f77c427c0dfa9c8ee243d3c513ebc12f330c9ca983e"
+      url "https://github.com/cryptocensus/cryptocensus/releases/download/v1.1.1/cryptocensus-x86_64-unknown-linux-musl.tar.gz"
+      sha256 "759dedb4f78c45ec572b431b4552779d568bfa904bece5456d76deef2fd60e65"
     end
   end
 
